@@ -37,8 +37,6 @@ CF7 redirects to /pdf-ready/
 ↓
 Plugin injects download link
 
-Redirect logic is **owned by Contact Form 7**, not the plugin.
-
 ---
 
 ## 📦 Installation
@@ -83,13 +81,6 @@ The CF7 form **must** contain fields with these exact names:
 
 ⚠️ Field names are case-sensitive.
 
-Redirect Configuration
-
-In the Additional Settings tab of the CF7 form, add:
-
-	on_sent_ok: "location = '/pdf-ready/';"
-
-This is the only supported redirect method.
 
 ## 🔐 Plugin Guardrails
 
@@ -201,4 +192,5 @@ Result:
 ## 🔮 Future Extensions
 
 	This plugin is currently compatible with only Contact Form 7,
+
 	but can be easily used for other form types also, e.g. Gravity Forms.
