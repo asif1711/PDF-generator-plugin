@@ -2,7 +2,7 @@
 
 **Version:** 0.1  
 **Author:** Nurul Islam  
-**Dependencies:** WordPress 6.9 · Nginx · PHP 7.4.30 · Contact Form 7 · Dompdf  
+**Dependencies:** WordPress 6.9 · Nginx · PHP 7.4.30 · Contact Form 7 · Dompdf · MySQL DB
 
 ---
 
@@ -249,5 +249,6 @@ The architecture allows future integration with:
         Multi-form handling
         Approval workflows
         Admin reporting UI
+
 
 
